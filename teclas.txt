@@ -1,0 +1,26 @@
+
+RGB_TOG	RM_TOGG	Encender / Apagar RGB
+RGB_MOD	RM_MOD	Siguiente modo de animación
+RGB_RMOD	RM_RMOD	Modo de animación anterior
+RGB_HUI	RM_HUI	Incrementar Tonalidad (Hue)
+RGB_HUD	RM_HUD	Decrementar Tonalidad (Hue)
+RGB_SAI	RM_SAI	Incrementar Saturación
+RGB_SAD	RM_SAD	Decrementar Saturación
+RGB_VAI	RM_VAI	Incrementar Brillo
+RGB_VAD	RM_VAD	Decrementar Brillo
+
+
+Solución 2: Si tu teclado usa RGBLight (Tiras LED o Underglow básico)
+
+Si tu teclado tiene luces inferiores (underglow) o una tira de LEDs simple, debes cambiar el prefijo RGB_ por UG_ (Underglow).
+
+Código Antiguo	Código Moderno (RGBLight)	Función
+RGB_TOG	UG_TOGG	Encender / Apagar luces
+RGB_MOD	UG_MOD	Siguiente modo / animación
+RGB_RMOD	UG_RMOD	Modo / animación anterior
+RGB_HUI	UG_HUI	Incrementar Tonalidad
+RGB_HUD	UG_HUD	Decrementar Tonalidad
+RGB_SAI	UG_SAI	Incrementar Saturación
+RGB_SAD	UG_SAD	Decrementar Saturación
+RGB_VAI	UG_VAI	Incrementar Brillo
+RGB_VAD	UG_VAD	Decrementar Brillo

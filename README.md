@@ -1,5 +1,6 @@
 # corne-latam-qmk
-mapa teclado corne v3
+mapa teclado corne v3 en español latinoamerica
+por Patricio Poo
 
 ```
 sudo apt install -y git python3-pip
@@ -9,6 +10,7 @@ qmk config user.keyboard=clueboard/66/rev3
 qmk compile -kb crkbd -km ppoo
 qmk flash -kb crkbd -km ppoo
 ```
+
 ```
       ,-----------------------------------------------------.                    ,-----------------------------------------------------.
       |    TAB ,    Q   ,    W   ,    E   ,    R   ,    T   ,                    |    Y   ,    U   ,    I   ,    O   ,    P   ,   BSPC ,
